@@ -6,7 +6,7 @@
   <div>
     <h5>Type coordenates with de format A1B1C1 and you will get the result from your card:</h5>
     <div>
-      <input type="text" [(ngModel)]="coordenates" (keyup)="getKeys()" maxlength="6" placeholder="Enter coordenates here">
+      <input type="text" [(ngModel)]="coordenates" (keyup)="getKeys()" maxlength="14" placeholder="Enter coordenates here">
     </div>
     <hr>
     <h2 ng-if="result">{{result}}</h2>

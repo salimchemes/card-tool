@@ -52,8 +52,8 @@ export class AppComponent {
   getKeys() {
     if (!this.checkJson())
       return;
-
-    var key = this.coordenates.toUpperCase();
+    let text = "[A3] [A5] [A7]"
+    let key = this.coordenates.toUpperCase().replace(/\[/g, "").replace(/\]/g, "").replace(/\ /g, ""); 
     if (key == "")
       return;
 
@@ -96,7 +96,7 @@ export class AppComponent {
       this.cardText = "Show Card";
     }
     else {
-    this.displayCard = true;
+      this.displayCard = true;
       this.cardText = "Hide Card";
 
     }
