@@ -1,3 +1,24 @@
+# What is it?
+Card reader helps you to get keys from your card given the coordenates.
+Just update the card.json file with your coordenates and enter your combination with the format
+"[A1] [G5] [I7]" to get the results
+
+# Install
+Once you hace node installed run
+
+npm i -g @angular/cli
+
+Then go to card folder and run
+
+npm i
+
+Then run
+
+ng serve
+
+Card reader toll will be running on http://localhost:4200/ (could be on a different port, check console)  
+
+
 # Card
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.4.
