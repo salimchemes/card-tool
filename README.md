@@ -4,7 +4,7 @@ Just update the card.json file with your coordenates and enter your combination 
 "[A1] [G5] [I7]" to get the results
 
 # Install
-Once you hace node installed run
+Once you have node installed run
 
 npm i -g @angular/cli
 
@@ -16,7 +16,7 @@ Then run
 
 ng serve
 
-Card reader toll will be running on http://localhost:4200/ (could be on a different port, check console)  
+Card reader tool will be running on http://localhost:4200/ (could be on a different port, check console)  
 
 
 # Card
